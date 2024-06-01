@@ -40,7 +40,7 @@ function formattedDate() {
   let currentTime = `${day} ${hour}:${minute} `;
   return currentTime;
 }
-
+searchCity("Paris");
 let form = document.querySelector("form");
 let searchButton = document.querySelector("#submit-button");
 form.addEventListener("submit", searchUpdate);
