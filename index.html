@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>My-Weather-app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            id="search-input"
+          />
+          <input type="submit" value="Search" id="submit-button" />
+        </form>
+      </header>
+      <main>
+        <h1>Paris</h1>
+        <div id="content">
+          <div id="description">
+            <p>
+              Wednesday 14:22, moderate rain<br />Humidity:
+              <span id="humidity">94%</span> Wind:
+              <span id="wind">4.63km/h</span>
+            </p>
+          </div>
+          <div class="temperature">
+            <span id="emoji">🌥️</span>
+            <span id="current-temperature">15</span><span id="degree">°c</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="contact" id="contact">
+          <p>
+            This project was coded by
+            <a href="#" target="_blank">Zo Tiana</a>,is
+            <a href="#" target="_blank">open-sourced on GitHub</a> and
+            <a href="#" target="_blank">hosted on Netlify</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>

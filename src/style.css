@@ -1,0 +1,78 @@
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  margin: 10px auto;
+  line-height: 40px;
+}
+.container {
+  display: inline-block;
+  margin: 40px auto;
+  padding: 25px 35px;
+  border: 1px solid #f9f7fe;
+  position: relative;
+  left: 30%;
+  background: #fff;
+  border-radius: 15px;
+  max-width: 950px;
+}
+#search-input {
+  width: 350px;
+  line-height: 30px;
+  padding: 5px 15px;
+  background: #f9f7fe;
+  border: none;
+  border-radius: 5px;
+}
+#submit-button {
+  width: 90px;
+  line-height: 30px;
+  background: blueviolet;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 5px;
+}
+#description {
+  font-weight: 550;
+  font-size: 15px;
+  opacity: 0.4;
+}
+#humidity {
+  color: red;
+}
+#wind {
+  color: red;
+}
+#emoji {
+  font-size: 35px;
+  position: relative;
+  top: -50px;
+}
+#current-temperature {
+  position: relative;
+  top: -40px;
+  font-weight: bold;
+  font-size: 70px;
+}
+#degree {
+  position: relative;
+  top: -65px;
+  font-size: 30px;
+}
+#content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+#contact {
+  position: relative;
+  font-size: 12px;
+  margin: 20px auto;
+  font-weight: bold;
+  opacity: 0.5;
+}
